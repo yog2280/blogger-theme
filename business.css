@@ -1,0 +1,114 @@
+/* BUSINESS BLOGGER THEME — EXTERNAL CSS */
+
+/* GLOBAL */
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background: #f5f7fb;
+    color: #111;
+}
+
+a {
+    text-decoration: none;
+    color: #0ea5a4;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 15px;
+}
+
+/* HEADER */
+header {
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(0,0,0,.08);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-family: Merriweather, serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+nav a {
+    margin-right: 20px;
+    font-weight: 600;
+    color: #111;
+}
+
+/* HERO SECTION */
+.hero {
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+}
+
+.hero h1 {
+    font-family: Merriweather, serif;
+    font-size: 38px;
+    margin: 0 0 10px;
+}
+
+.hero p {
+    max-width: 480px;
+    color: #6b7280;
+}
+
+.cta {
+    background: #0ea5a4;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+/* MAIN LAYOUT */
+.layout {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.left {
+    flex: 2;
+}
+
+.right {
+    flex: 1;
+}
+
+/* CARDS */
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+    margin-bottom: 20px;
+}
+
+.card h2,
+.card h3 {
+    margin-top: 0;
+    color: #0f172a;
+}
+
+/* FOOTER */
+footer {
+    background: #0b1220;
+    color: #fff;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #9ae6df;
+}
